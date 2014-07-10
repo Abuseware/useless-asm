@@ -1,5 +1,5 @@
 ;BUILD--------------------------------------------------------------------------
-;	nasm -Ox -f elf over2.s -o over2.o
+;	nasm -f elf over2.s -o over2.o
 ;	ld -lc -dynamic-linker /lib/ld-linux.so.2 over2.o over2
 ;-------------------------------------------------------------------------------
 [bits 32]

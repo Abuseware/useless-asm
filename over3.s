@@ -41,7 +41,7 @@ quit:
 
 _start:
   mov edi,print+1
-  mov eax,0x0F
+  mov eax,0xFF
   stosb
   call print
   call quit

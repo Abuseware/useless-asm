@@ -1,4 +1,4 @@
-;tiny shell loader by thc_flow
+;tiny shell loader by Licho
 ;nasm -fbin -O0 shell.s
 [BITS 32]
 	xor eax,eax
